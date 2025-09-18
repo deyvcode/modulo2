@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+.primeiroP{
+    text-align: left;
+}
+
+.segundoP{
+    text-align: right;
+}
+
+.slatbm{
+    width: 200px;
+    height: 200px;
+
+}
+
+.sla{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}

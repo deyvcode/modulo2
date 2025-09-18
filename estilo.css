@@ -1,0 +1,17 @@
+p{
+    color:blue;
+    font-size:50px;
+    text-align:right;
+}
+
+img{
+    width:150px;
+    height:150px;
+    margin-left:430px;
+}
+
+div{
+    background-color: #ee7878;
+    width:100px;
+    margin-left:430px;
+}
