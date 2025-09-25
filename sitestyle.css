@@ -1,34 +1,79 @@
 nav{
     background-color: rgb(21, 103, 255);
     color: white;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
     display: flex;
-    height: 600px;
+    height: 150px;
     justify-content: space-around;
     align-items: center;
+    gap: 150px;
 
 }
-    .spider{
+.spider{
+    border-radius: 20px;
+    height: 300px;
+    width: 250px;
+}
+.play{
+   width: 60px;
+   height: 60px;
+}
+ul{
+   display: flex;
+   justify-content: space-around;
+   gap: 40px;
+}
+.sem{
+   width: 80px;
+   height: 20px;
+   border-radius: 30px;
+   background-color: rgb(255, 121, 63);
+   color: white;
+}
+li{
+   list-style: none;
+}
 
-    }
-    .play{
-        width: 60px;
-        height: 60px;
-    }
-    ul{
-        display: flex;
-        justify-content: space-around;
-        gap: 40px;
-    }
-    button{
-  
-     width: 80px;
-     height: 20px;
-     border-radius: 30px;
-     background-color: rgb(255, 153, 0);
-     color: white;
+.anuncio{
+   background-color: rgb(21, 103, 255);
+   display: flex;
+   border-bottom-right-radius:60px ;
+   border-bottom-left-radius:60px ;
+   color: white;
+   justify-content: space-around;
+   height: 450px;
 }
-     li{
-        list-style: none;
+.master{
+   background-color: rgb(21, 103, 255);
+   border-bottom-right-radius:60px ;
+   border-bottom-left-radius:60px ;
+   height: 450px;
 }
+
+.bubu{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(255, 121, 63);
+    color: white;
+    border-radius: 30px;
+    margin-right: 220px;
+    position: absolute;
+    top: 10%;
+    right: 5px;
+}
+
+.butao{
+    position: relative;
+}
+
+input{
+    width: 400px;
+    height: 24px;
+    border-radius: 30px;
+    margin-top: 3px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
