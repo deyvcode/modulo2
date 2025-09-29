@@ -1,4 +1,4 @@
-nav{
+.npensei{
     background-color: rgb(21, 103, 255);
     color: white;
     display: flex;
@@ -29,8 +29,10 @@ ul{
    background-color: rgb(255, 121, 63);
    color: white;
 }
-li{
+.bom{
    list-style: none;
+   display: flex;
+   align-items: center;
 }
 .anuncio{
    background-color: rgb(21, 103, 255);
@@ -69,9 +71,7 @@ input{
 }
 .box{
     display: flex;
-    justify-content: space-around;
-    display: flex;
-
+    justify-content: space-evenly;
 }
 .box1{
     border-radius: 30px;
@@ -87,5 +87,18 @@ input{
 }
 .final{
     color: rgb(255, 121, 63);
+    margin-top: 30px;
     display: flex;
+    justify-content: space-between;
+}
+.fimvdd{
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
