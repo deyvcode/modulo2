@@ -2,7 +2,7 @@ import requests
 
 prato=input('Digite o prato que você deseja: ')
 bebida=input('Digite a bebida que você deseja: ')
-mesa=int(input('Digite a mesa a qual você deseja se sentar: '))
+mesa=(input('Digite a mesa a qual você deseja se sentar: '))
 
 pedido={
     'Prato': prato,
