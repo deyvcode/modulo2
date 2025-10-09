@@ -16,4 +16,3 @@ novopepe = {
     'Mesa': mesa
 }
 requests.put(f'https://68dd8c16d7b591b4b78cc26a.mockapi.io/Restaurante/{vaa}', novopepe)
-
