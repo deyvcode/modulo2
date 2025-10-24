@@ -12,4 +12,3 @@ for i in result:
         requests.delete(f'https://68dd8c16d7b591b4b78cc26a.mockapi.io/Restaurante/{id}')
     else:
         print('Este item não será deletado pois não existe')
-
